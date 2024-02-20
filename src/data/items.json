@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "name": "Margherita",
+        "priceLarge": 12,
+        "priceMedium": 13,
+        "priceSmall": 14,
+        "ingredients": "cheese, tomato pizza sauce, oregano",
+        "img": "/1_margherita.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Capriciosa",
+        "priceLarge": 12,
+        "priceMedium": 13,
+        "priceSmall": 14,
+        "ingredients": "cheese, tomato pizza sauce, ham, mushrooms, oregano",
+        "img": "/2_capriciosa.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Parma",
+        "priceLarge": 12,
+        "priceMedium": 13,
+        "priceSmall": 14,
+        "ingredients": "Dough, tomato pizza sauce, mozzarella cheese, maturing ham, fresh basil, oregano",
+        "img": "/3_parma.jpg"
+    },
+    {
+        "id":4,
+        "name": "Campione",
+        "priceLarge": 12,
+        "priceMedium": 13,
+        "priceSmall": 14,
+        "ingredients": "cheese, tomato pizza sauce, ham, thin smoked pork sausages, pancetta bacon, salami, oregano",
+        "img": "/4_campione.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Decoro",
+        "priceLarge": 12,
+        "priceMedium": 13,
+        "priceSmall": 14,
+        "ingredients": "cheese, tomato pizza sauce, ham, mushrooms, pickled peppers, garlic, oregano",
+        "img": "/5_decoro.jpg"
+    }
+]
