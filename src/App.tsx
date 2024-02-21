@@ -3,10 +3,12 @@ import { Routes, Route } from "react-router-dom"
 import { Home } from "./pages/Home"
 import { Menu } from "./pages/Menu"
 import { Navbar } from "./components/Navbar"
+import { ShoppingCartProvider } from "./context/ShoppingCartContext"
 function App() {
 
   return (
     <>
+    <ShoppingCartProvider>
   <Navbar />
   <Container>
     <Routes>
@@ -14,6 +16,7 @@ function App() {
       <Route path="/menu" element={<Menu />} />
     </Routes>
     </Container>'
+    </ShoppingCartProvider>
     </>
   )
 }

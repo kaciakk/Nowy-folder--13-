@@ -1,6 +1,7 @@
 import { Card, Col, Row, Button, Dropdown } from "react-bootstrap"
 import CardImg from 'react-bootstrap/CardImg'
 import { formatCurrency } from "../utilities/formatCurrency"
+import { useShoppingCart } from "../context/ShoppingCartContext"
 type StoreItemProps = {
     id: number,
     name: string
@@ -13,7 +14,15 @@ type StoreItemProps = {
 
 
 export function StoreItem( { id, name, priceSmall,priceMedium, priceLarge, ingredients, img }: StoreItemProps) {
-    return <Card style={{ width: "550px", height: "200px" }}>
+
+    const {
+        getItemQuantity,
+        increaseCartQuantity,
+        removeFromCart,
+    } = useShoppingCart()
+
+
+    return <Card style={{ width: "520px", height: "200px" }}>
         <Row>
             <Col xs={4}>
             <CardImg   src={img} height="200px" style={{ objectFit: "cover" }}/>
@@ -36,8 +45,15 @@ export function StoreItem( { id, name, priceSmall,priceMedium, priceLarge, ingre
          </Dropdown.Menu>
      </Dropdown>  
      <span className="fst-italic" style={{fontSize: '0.88em'}}>{ingredients}</span>
+
+     <Row>
+        <Col >
+        <Button variant="outline-success">Modify</Button>{' '}
+        <Button variant="outline-success" onClick={() => increaseCartQuantity(id)}>Add</Button>{' '}
+        </Col>
+        </Row>
+     
         </Card.Body>
-        <Button variant="outline-success">Success</Button>{' '}
         </Col>
         </Row>
         

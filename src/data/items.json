@@ -43,5 +43,31 @@
         "priceSmall": 14,
         "ingredients": "cheese, tomato pizza sauce, ham, mushrooms, pickled peppers, garlic, oregano",
         "img": "/5_decoro.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Decoro",
+        "priceLarge": 12,
+        "priceMedium": 13,
+        "priceSmall": 14,
+        "ingredients": "cheese, tomato pizza sauce, ham, mushrooms, pickled peppers, garlic, oregano",
+        "img": "/5_decoro.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Decoro",
+        "priceLarge": 12,
+        "priceMedium": 13,
+        "priceSmall": 14,
+        "ingredients": "cheese, tomato pizza sauce, ham, mushrooms, pickled peppers, garlic, oregano",
+        "img": "/5_decoro.jpg"
+    },{
+        "id": 8,
+        "name": "Decoro",
+        "priceLarge": 12,
+        "priceMedium": 13,
+        "priceSmall": 14,
+        "ingredients": "cheese, tomato pizza sauce, ham, mushrooms, pickled peppers, garlic, oregano",
+        "img": "/5_decoro.jpg"
     }
 ]
