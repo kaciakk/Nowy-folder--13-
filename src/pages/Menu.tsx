@@ -1,7 +1,7 @@
 import storeItems from "../data/items.json"
 import { Col, Row} from "react-bootstrap"
 import { StoreItem } from "../components/StoreItem"
-import { Cart } from "../components/Cart"
+
 export function Menu() {
   return (
     <>

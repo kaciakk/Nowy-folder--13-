@@ -33,17 +33,7 @@ export function StoreItem( { id, name, priceSmall,priceMedium, priceLarge, ingre
                 <span className="text-danger">{id}. </span>
                 <span>{name}</span>
             </Card.Title>
-                <Dropdown>
-                    <Dropdown.Toggle variant="success" id="dropdown-basic">
-                      Pizza Size
-                    </Dropdown.Toggle>
-
-              <Dropdown.Menu>
-                <Dropdown.Item href="#/action-1">Small: {formatCurrency(priceSmall)}</Dropdown.Item>
-                <Dropdown.Item href="#/action-2">Medium: {formatCurrency(priceMedium)}</Dropdown.Item>
-                <Dropdown.Item href="#/action-3">Large: {formatCurrency(priceLarge)}</Dropdown.Item>
-         </Dropdown.Menu>
-     </Dropdown>  
+                
      <span className="fst-italic" style={{fontSize: '0.88em'}}>{ingredients}</span>
 
      <Row>
