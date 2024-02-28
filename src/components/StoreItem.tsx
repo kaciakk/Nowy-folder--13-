@@ -38,7 +38,7 @@ export function StoreItem( { id, name, priceSmall,priceMedium, priceLarge, ingre
 
      <Row>
         <Col >
-        <Button variant="outline-success">Modify</Button>{' '}
+        <Button variant="outline-success">Modifya</Button>{' '}
         <Button variant="outline-success" onClick={() => increaseCartQuantity(id)}>Add</Button>{' '}
         </Col>
         </Row>
